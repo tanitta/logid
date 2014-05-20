@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"import",
+				"ImportError	class"
+			],
+			[
 				"My",
 				"MyClass"
 			],
@@ -284,23 +288,23 @@
 	"buffers":
 	[
 		{
-			"file": "gui/gui_manager.py",
+			"file": "main.py",
 			"settings":
 			{
-				"buffer_size": 517,
+				"buffer_size": 509,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "gui/__init__.py",
+			"file": "gui/main_window.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3581,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "Packages/Python/Python/Python.sublime-build",
+	"build_system": "Packages/User/PythonProject.sublime-build",
 	"command_palette":
 	{
 		"height": 68.0,
@@ -579,6 +583,13 @@
 	},
 	"file_history":
 	[
+		"/F/Users/tanitta/Documents/Program/logid/gui/__init__.py",
+		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/PythonProject.sublime-build",
+		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/MSBuild.sublime-build",
+		"/F/Users/tanitta/Documents/Program/Python/Python.sublime-build",
+		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-build",
 		"/F/Users/tanitta/Documents/Program/pythontest/pythontest.sublime-project",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/SublimePythonIDE/sublime_python.py",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/SublimePython.sublime-settings",
@@ -587,8 +598,6 @@
 		"/F/Users/tanitta/Documents/Program/pythontest/aaaatest/__init__.py",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/SublimeClang/Default.sublime-keymap",
 		"/F/Users/tanitta/Documents/Program/pythontest/test/__init__.py",
-		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/Anaconda/anaconda.py",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
 		"/C/Python33/lib/site-packages/PyQt4/__init__.py",
@@ -685,7 +694,6 @@
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/SublimeClang.sublime-settings",
 		"/F/Users/tanitta/Documents/Program/alight/.gitignore",
 		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/unitro/src/network/Network.h",
-		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/User/MSBuild.sublime-build",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/SublimeClang-1.0.41/sublimeclang.py",
 		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/unitro/src/network/Network.cpp",
 		"/F/Users/tanitta/Documents/Program/ofSnippetGenerator/.gitignore",
@@ -702,11 +710,7 @@
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 3/Packages/SublimeTextTrans-master/Default (Windows).sublime-keymap",
 		"/C/Users/tanitta/AppData/Roaming/Sublime Text 2/Packages/User/run.bat",
 		"/F/Users/tanitta/Documents/Program/unitroTestCode/2D/src/main/scala/Env.scala",
-		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/alight/src/SceneControl.cpp",
-		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/alight/src/SceneControl.h",
-		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/alight/src/testApp.cpp",
-		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/alight/src/testApp.h",
-		"/C/Users/tanitta/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+		"/F/Users/tanitta/Documents/Program/of_v0.8.0_vs_release/apps/myApps/alight/src/SceneControl.cpp"
 	],
 	"find":
 	{
@@ -724,6 +728,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"self.",
+			"*",
+			"  ",
 			"ImportError",
 			"ofEnableAlphaBlending",
 			"matrixCurrent",
@@ -848,10 +855,7 @@
 			"soil",
 			"java",
 			"90",
-			"determinant6",
-			"return true}",
-			"+      ",
-			"//	 1 つめの頂点の座標を指定する"
+			"determinant6"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -881,24 +885,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "gui/gui_manager.py",
+					"file": "main.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 517,
+						"buffer_size": 509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								72,
+								72
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python/Python.tmLanguage"
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -915,24 +922,27 @@
 			[
 				{
 					"buffer": 1,
-					"file": "gui/__init__.py",
+					"file": "gui/main_window.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								424,
+								408
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python/Python.tmLanguage"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
